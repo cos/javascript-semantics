@@ -1,5 +1,5 @@
 function mkSend(rawSend) {
-  var whiteList = { "http://www.microsoft.com/mail": true,
+  let whiteList = { "http://www.microsoft.com/mail": true,
                     "http://www.microsoft.com/owa" : true };
   function newSend (target, msg) {
     if (whiteList[target]) {
