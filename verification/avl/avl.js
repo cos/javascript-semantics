@@ -5,7 +5,7 @@
 
 function make_node(v)
 {
-  var node = {
+  let node = {
     value  : v,
     height : 1,
     left   : null,
@@ -150,15 +150,3 @@ function remove(v, t)
 
 // Test
 
-// function Test() {
-//   var avl = null; console.log(avl);
-//   avl = insert(1,avl); console.log(avl);
-//   avl = insert(2,avl); console.log(avl);
-//   avl = insert(3,avl); console.log(avl);
-//   console.log(find(1,avl));
-//   console.log(find(2,avl));
-//   console.log(find(3,avl));
-//   console.log(find(4,avl));
-//   avl = remove(2,avl); console.log(avl);
-// }
-// Test();
